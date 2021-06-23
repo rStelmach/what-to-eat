@@ -1,0 +1,370 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Zesty Sweet Crispy Soy Pork",
+      "img": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/e9c98a4299f44eb59616214d68e5685a.png",
+      "description": "It's zesty, it's sweet, it's crispy, it's....soy?! That's right - we tried to make a jingle, but then we decided we'd just make our soy pork instead, and, well, we want you to join in on the fun! We're bringing the Korean kitchen to you, and these pork belly bites are the best way to do that (well, in our opinion, at least). Go on, give 'em a shot for your next barbecue. You won't be sorry (we promise)",
+      "ingredients": [
+        "3.5 lbs pork belly",
+        "1 large onion, sliced",
+        "1 green bell pepper, ",
+        "6-7 cloves garlic",
+        "1 carrot, sliced",
+        "4 tbsp soy sauce",
+        "1 lemon",
+        "1 tsp dark soy",
+        "1 cup potato starch",
+        "2 cups flour",
+        "1 tsp cayenne",
+        "1 tsp paprika",
+        "2 tsp onion powder",
+        "1 tsp garlic powder",
+        "1 tsp white pepper"
+      ],
+      "time": 40,
+      "calories": 400
+    },
+
+    {
+      "id": "2",
+      "name": "Matzo Ball Pho",
+      "img": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/8cb28aa8ac4d4518aa0b418074b27e20.png",
+      "description": "Matzo Ball Soup! You've heard of it everywhere - pop culture, Bat Mitzvahs, what have you. You've heard of pho everywhere too, especially recently. How many friends want to grab a bowl of pho after a long day? It's become the new ramen. So we're here to put those phenomena together and we've created the perfect culmination of the two: Matzo. Ball. ",
+      "ingredients": [
+        "halved, thinly sliced",
+        "1 shallot, halved",
+        "1 inch piece ginger, sliced",
+        "4-6 stalks green onions",
+        "2 star anise seeds",
+        "7 cloves of garlic",
+        "1 tsp coriander seeds",
+        "1 dried cardamom pod",
+        "1 carton cinnamon stick",
+        "1 lb chicken wings",
+        "3 chicken thighs",
+        "10 cups water",
+        "1 bunch Thai basil, chopped",
+        "1 bunch sawtooth herb, chopped",
+        "egg",
+        "¼ cup vegetable oil",
+        "¼ tsp black pepper",
+        "2 ½ tsp sugar, divided",
+        "2 tsp fish sauce"
+      ],
+      "time": 60,
+      "calories": 350
+    },
+
+    {
+      "id": "3",
+      "name": "Frozen Waffle Treats",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/318755.jpg",
+      "description": "",
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "⅓ cup cocoa powder",
+        "½ cup  sugar",
+        "2 teaspoons baking powder",
+        "1 teaspoon baking soda",
+        "1 teaspoon espresso powder",
+        "½ teaspoon kosher salt",
+        "2 cups Planet Oat Oatmilk",
+        "1 tablespoon white vinegar",
+        "¼ cup vegetable oil",
+        "2 eggs",
+        "chocolate"
+      ],
+      "time": 30,
+      "calories": 200
+    },
+
+    {
+      "id": "4",
+      "name": "Lentil Bolognese",
+      "img": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/76af70f676264879bd7bf4d50559feba.png",
+      "description": "Meatless meets comfort in this simple yet scintillating lentil bolognese! This bolognese pairs well with any pasta, from our house-favorite penne to a more exciting tagliatelle or fun farfalle. And if lentils seem intimidating, they're anything but when thrown into this jiffy of a pasta sauce. This is the perfect weeknight meal, Meatless Monday or not! ",
+      "ingredients": [
+        "1 tbsp butter",
+        "⅓ cup tomato paste",
+        "2 tbsp Worcestershire",
+        "1 ½ cup vegetable broth",
+        "½ yellow onion, finely diced",
+        "3 cloves garlic, minced",
+        "½ cup red bell peppers",
+        "lentils",
+        "1 cup spinach, washed"
+      ],
+      "time": 25,
+      "calories": 210
+    },
+
+    {
+      "id": "5",
+      "name": "Cacio E Pepe",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/323190.jpg",
+      "description": "Some call this pasta dish grown up mac ‘n’ cheese; we just call it delicious. Tender spaghetti is tossed in a luscious sauce that comes together with just 3 ingredients; butter, pepper, and grated Parmesan.",
+      "ingredients": [
+        "Kosher salt, to taste",
+        "8 ounces dried spaghetti",
+        "3 tablespoons unsalted butter",
+        "1 teaspoon freshly ground black pepper",
+        "1 cup grated Parmesan cheese",
+        "Flaky sea salt, to taste"
+      ],
+      "time": 45,
+      "calories": 450
+    },
+
+    {
+      "id": "6",
+      "name": "Linguine Alfredo Recipe",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/323148.jpg",
+      "description": "Creamy, dreamy linguine! This classic dish comes together in mere minutes. While the pasta boils, whip up a silky garlic, cream, and Parmesan sauce, then toss with the pasta until well coated.",
+      "ingredients": [
+        "½ teaspoon salt",
+        "1 16-ounce box of  linguine",
+        "4 tablespoons unsalted butter",
+        "2 medium garlic cloves",
+        "1 cup heavy cream",
+        "¼ teaspoon black pepper",
+        "2 cups Parmesan cheese",
+        "¼ cup  fresh parsley"
+      ],
+      "time": 40,
+      "calories": 500
+    },
+
+    {
+      "id": "7",
+      "name": "Peanut Butter Cup Cheesecake",
+      "img": "https://img.buzzfeed.com/tasty-app-user-assets-prod-us-east-1/recipes/c1fe67875a1b477899568fad4fbdde6b.jpeg",
+      "description": "",
+      "ingredients": [
+        "6 tablespoons unsalted butter",
+        "1 14.3-oz package of chocolate cookies",
+        "Nonstick cooking spray",
+        "32 ounces cream cheese, softened",
+        "5 large eggs",
+        "1½ cups light brown sugar",
+        "1 cup creamy peanut butter",
+        "1 cup creamy peanut butter",
+        "1 teaspoon vanilla extract",
+        "¼ teaspoon kosher salt",
+        "24 peanut butter cups, chopped",
+        "1 cup semisweet chocolate chips"
+      ],
+      "time": 60,
+      "calories": 400
+    },
+
+    {
+      "id": "8",
+      "name": "Cast Iron Skillet Pizza",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/323146.jpg",
+      "description": "Homemade pizza is less than 30 minutes away with this easy, customizable recipe! Baking the pizza in a cast iron skillet ensures the crust holds its shape and gets nice and crispy on the bottom. Keep it simple with a sprinkle of cheese, or load up with your favorite toppings!",
+      "ingredients": [
+        "All-purpose flour, for dusting",
+        "premade pizza dough",
+        "3 tablespoons pizza sauce",
+        "Shredded mozzarella cheese",
+        "Pepperoni",
+        "bell peppers"
+      ],
+      "time": 35,
+      "calories": 450
+    },
+
+    {
+      "id": "9",
+      "name": "Baked Ziti Recipe by Tasty",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/323141.jpg",
+      "description": "Supremely saucy and cheesy, baked ziti is a family favorite for a reason! Toss ziti or your favorite tube-shaped pasta with a quick homemade tomato sauce and ricotta-Parmesan mixture, then layer with more ricotta and mozzarella and bake until bubbling and delicious.",
+      "ingredients": [
+        "½ tablespoon unsalted butter",
+        "1 tablespoon olive oil",
+        "2 medium yellow onions, diced",
+        "3 garlic cloves, minced",
+        "½ teaspoon red pepper flakes",
+        "1 teaspoon dried oregano",
+        "¼ cup tomato paste",
+        "1 28-ounce can of tomatoes",
+        "3 teaspoons kosher salt",
+        "2 teaspoons of pepper",
+        "1 16-ounce package of ziti pasta"
+      ],
+      "time": 40,
+      "calories": 330
+    },
+
+    {
+      "id": "10",
+      "name": "Ravioli Pomodoro ",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/323151.jpg",
+      "description": "Jazz up store-bought ravioli with a super quick homemade tomato sauce full of fragrant onion, garlic, and basil. The sauce is super versatile and pairs well with any flavor of ravioli, from cheese to spinach to mushroom.",
+      "ingredients": [
+        "1 28-ounce can of tomatoes",
+        "½ cup olive oil",
+        "1 small yellow onion, finely chopped",
+        "3 cloves garlic, minced",
+        "¼ teaspoon sugar",
+        "1½ teaspoons kosher salt",
+        "1 cup fresh basil leaves,",
+        "1 16-ounce package of store-bought ravioli"
+      ],
+      "time": 25,
+      "calories": 300
+    },
+
+    {
+      "id": "11",
+      "name": "Baklava Baked Oatmeal",
+      "img": "https://s3.amazonaws.com/video-api-prod/assets/9219faba72d24b47b6e02391e949a1e5/BaklavaOatmeal_thumb.jpg",
+      "description": "",
+      "ingredients": [
+        "1 cup rolled oats",
+        "¼ cup  unsalted butter",
+        "¼ cup pistachios",
+        "¼ cup chopped walnuts",
+        "½ teaspoon salt",
+        "½ teaspoon cinnamon",
+        "4 large eggs",
+        "¼ cup honey",
+        "milk"
+      ],
+      "time": 15,
+      "calories": 200
+    },
+
+    {
+      "id": "12",
+      "name": "White Mocha Syrup",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/359c343d69bd4dd8aae696fdbac4f44b/BFV79769_ITriedToRecreateViralTikTokStarbucksDrinks_AB_051221_Final.jpg",
+      "description": "This delicious white mocha syrup is perfect in sweet coffee drinks, yummy milkshakes, or as an ice cream topping. It’s quick to make and will keep an airtight container in the refrigerator for up to 1 month.",
+      "ingredients": [
+        "1 14-ounce can of condensed milk",
+        "¾ cup whole milk",
+        "½ tablespoon vanilla extract",
+        "½ cup sugar",
+        "1 cup white chocolate chips",
+        "1 teaspoon instant coffee"
+      ],
+      "time": 10,
+      "calories": 50
+    },
+
+    {
+      "id": "13",
+      "name": "Strawberry Açai Refresher Copy Cat",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/ff67eb44475c4f88b925c8e29c4c4831/BFV79769_ITriedToRecreateViralTikTokStarbucksDrinks_AB_051221_Final.jpg",
+      "description": "Katie Aubin shows us how to create Starbucks’ holy grail: the strawberry açai refresher. It’s used as the base for a ton of their drinks and we’ve got the secret to making it delicious and cost-effective at home.",
+      "ingredients": [
+        "2 tablespoons strawberry powder",
+        "1 teaspoons açaí powder",
+        "1½ cup water",
+        "1 cup white grape juice",
+        "1 tablespoon passion fruit purée",
+        "½ cup green tea",
+        "2 tablespoons simple syrup"
+      ],
+      "time": 15,
+      "calories": 100
+    },
+
+    {
+      "id": "14",
+      "name": "Hot Crab Rangoon Dip",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/322826.jpg",
+      "description": "",
+      "ingredients": []
+    },
+
+    {
+      "id": "15",
+      "name": "Singapore Chilli Crab",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/268999.jpg",
+      "description": "The hype around Singapore Chilli Crab is well-deserved. Discover it for yourself, with this tasty recipe.",
+      "ingredients": [
+        "8 ounces cream cheese",
+        "8 ounces sour cream",
+        "1½ teaspoons lime juice",
+        "3 tablespoons chili garlic sauce",
+        "1 teaspoon paprika,",
+        "¼ teaspoon cayenne",
+        "8 ounces lump crab meat",
+        "1 cup shredded cheese",
+        "4 tablespoons sesame seeds",
+        "vegetable oil",
+        "25 wraps"
+      ],
+      "time": 65,
+      "calories": 350
+    },
+
+    {
+      "id": "16",
+      "name": "Dalgona Pie",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/323081.jpg",
+      "description": "It’s the Dalgona coffee trend transformed! Fill the hazelnut pie crust with chocolate chess filling, then top off with sweetened whipped coffee cream. Now this is a dessert worth waking up for!",
+      "ingredients": [
+        "1 cup all-purpose flour",
+        "1½ teaspoons granulated sugar",
+        "½ teaspoon kosher salt",
+        "½ cup unsalted butter",
+        "6 tablespoons ice water",
+        "1 tablespoon vinegar",
+        "1 large egg",
+        "¾ cup granulated sugar"
+      ],
+      "time": 30,
+      "calories": 400
+    },
+
+    {
+      "id": "17",
+      "name": "Classic Meatloaf",
+      "img": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/323139.jpg",
+      "description": "Meatloaf is a delicious addition to your weeknight dinner repertoire. Full of savory flavor and topped with a sweet, sticky ketchup glaze, it’s the perfect pair to your favorite vegetable side dishes, such as classic mashed potatoes and steamed green beans.",
+      "ingredients": [
+        "1 tablespoon olive oil",
+        "1 large yellow onion",
+        "3 cloves garlic",
+        "2 tablespoons tomato paste",
+        "1 cup panko bread crumbs",
+        "1 cup whole milk",
+        "2 pounds ground beef",
+        "2 large eggs, beaten",
+        "½ cup fresh parsley",
+        "1 tablespoon Worcestershire sauce",
+        "½ teaspoon dried thyme",
+        "½ cup ketchup"
+      ],
+      "time": 50,
+      "calories": 300
+    },
+
+    {
+      "id": "18",
+      "name": "",
+      "img": "",
+      "description": "",
+      "ingredients": []
+    },
+
+    {
+      "id": "19",
+      "name": "",
+      "img": "",
+      "description": "",
+      "ingredients": []
+    },
+
+    {
+      "id": "20",
+      "name": "",
+      "img": "",
+      "description": "",
+      "ingredients": []
+    }
+  ]
+}
