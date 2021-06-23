@@ -3,7 +3,7 @@ What to eat is a Vue 3 project with custom created API. Concept is to write your
 App is still in progress.
 
 ## Technologies used
-#### Vue3
+#### Vue 3
 #### Composition API
 #### Axios 
 #### json server
