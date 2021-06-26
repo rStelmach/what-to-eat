@@ -1,7 +1,8 @@
 import { createStore } from 'vuex';
 import axios from 'axios';
 
-const resourceUrl = 'https://my-tasty-api.herokuapp.com/recipes';
+const resourceUrl = 'http://localhost:3000/recipes';
+// const resourceUrl = 'https://my-tasty-api.herokuapp.com/recipes';
 
 export default createStore({
   state: { recipes: [], ingredients: [] },

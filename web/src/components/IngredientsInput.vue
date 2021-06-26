@@ -7,22 +7,37 @@
         <li>{{ ingredient }}</li>
       </div>
     </div>
+    <div class="temp">{{ updatedList }}</div>
   </div>
 </template>
 
 <script>
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
+
+import { useStore } from 'vuex';
 
 export default {
   setup() {
+    const store = useStore();
     const listInput = ref('');
     const ingredients = ref([]);
+    const updatedList = computed(() => {
+      const { allRecipes } = store.getters;
+      const newList = allRecipes.filter(
+        item => item.ingredients.some(ingredient => ingredient.includes(ingredient.value)),
+        // const reducedItems = item.ingredients.filter(ingredient => ingredient.includes('chocolate'));
+        // console.log(reducedItems);
+        // return reducedItems;
+      );
+      // const newList = allRecipes.filter(ingredient => ingredient.include('chocolate'));
+      return newList;
+    });
 
     function addToIngredients() {
       ingredients.value.push(listInput.value);
       listInput.value = '';
     }
-    return { ingredients, listInput, addToIngredients };
+    return { ingredients, listInput, addToIngredients, updatedList };
   },
 };
 </script>
@@ -67,6 +82,12 @@ export default {
       font-size: 1.5rem;
       font-weight: 600;
     }
+  }
+  .temp {
+    min-width: 300px;
+    min-height: 300px;
+    background-color: red;
+    color: white;
   }
 }
 </style>
