@@ -7,50 +7,35 @@
         <li>{{ ingredient }}</li>
       </div>
     </div>
-    <div class="temp">{{ updatedList }}</div>
+    <div class="temp">{{ recipes }}</div>
   </div>
 </template>
 
 <script>
-import { computed, ref } from 'vue';
-
-import { useStore } from 'vuex';
+import { useRecipes } from '../use/useRecipes';
 
 export default {
   setup() {
-    const store = useStore();
-    const listInput = ref('');
-    const ingredients = ref([]);
-    const updatedList = computed(() => {
-      const { allRecipes } = store.getters;
-      const newList = allRecipes.filter(
-        item => item.ingredients.some(ingredient => ingredient.includes(ingredient.value)),
-        // const reducedItems = item.ingredients.filter(ingredient => ingredient.includes('chocolate'));
-        // console.log(reducedItems);
-        // return reducedItems;
-      );
-      // const newList = allRecipes.filter(ingredient => ingredient.include('chocolate'));
-      return newList;
-    });
+    const { ingredients, listInput, recipes } = useRecipes();
 
     function addToIngredients() {
       ingredients.value.push(listInput.value);
       listInput.value = '';
     }
-    return { ingredients, listInput, addToIngredients, updatedList };
+    return { ingredients, listInput, recipes, addToIngredients };
   },
 };
 </script>
 
 <style lang="scss" scoped>
 .container {
-  min-height: 70vh;
+  height: 70vh;
   .list {
     color: white;
-    min-height: 40vh;
+    min-height: 30vh;
     width: 25%;
     background-color: #50a684;
-    margin: 10% auto 12% auto;
+    margin: 8% auto 10% auto;
     border-radius: 20px;
     display: flex;
     flex-direction: column;

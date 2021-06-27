@@ -29,7 +29,6 @@ export default {
     onMounted(() => {
       getRecipes();
     });
-
     function goToRecipe(recipeId) {
       router.push({ name: 'recipe', params: { id: recipeId } });
     }
@@ -43,7 +42,6 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   .recipe {
     position: relative;
     border-radius: 1.5rem;
@@ -54,7 +52,6 @@ export default {
     width: 19vw;
     cursor: pointer;
     overflow: hidden;
-
     img {
       border-radius: 1.5rem;
       padding: 2%;
@@ -86,7 +83,6 @@ export default {
         // justify-content: flex-start;
         // align-items: flex-start;
         // align-content: flex-start;
-
         flex-wrap: wrap;
         li {
           color: white;
