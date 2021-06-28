@@ -4,7 +4,7 @@ import { useStore } from 'vuex';
 export const useRecipes = () => {
   const store = useStore();
   const listInput = ref('');
-  const ingredients = ref([]);
+  const ingredients = computed(() => store.getters.getInput);
   const recipes = computed(() => {
     const { allRecipes } = store.getters;
     console.log(allRecipes);

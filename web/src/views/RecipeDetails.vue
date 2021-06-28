@@ -64,11 +64,9 @@ export default defineComponent({
     margin: 4% auto;
     display: flex;
     justify-content: flex-end;
-    // background-color: green;
     .recipe-details {
       height: 450px;
       width: 450px;
-      // background-color: red;
       border-radius: 13px;
       margin: 1% auto;
 
@@ -105,7 +103,6 @@ export default defineComponent({
       display: block;
       width: 45%;
       height: 42%;
-      // height: auto;
       margin: 1% auto;
       border-radius: 13px;
       object-fit: cover;

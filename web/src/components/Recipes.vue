@@ -6,8 +6,6 @@
 </template>
 
 <script>
-// import { ref } from 'vue';
-// import IngredientsList from './IngredientsList.vue';
 import RecipesList from './RecipesList.vue';
 
 export default {

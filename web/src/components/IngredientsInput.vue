@@ -7,19 +7,20 @@
         <li>{{ ingredient }}</li>
       </div>
     </div>
-    <div class="temp">{{ recipes }}</div>
   </div>
 </template>
 
 <script>
+import { useStore } from 'vuex';
 import { useRecipes } from '../use/useRecipes';
 
 export default {
   setup() {
+    const store = useStore();
     const { ingredients, listInput, recipes } = useRecipes();
 
     function addToIngredients() {
-      ingredients.value.push(listInput.value);
+      store.commit('ADD_SEARCH_INGREDIENT', listInput.value);
       listInput.value = '';
     }
     return { ingredients, listInput, recipes, addToIngredients };
@@ -39,7 +40,6 @@ export default {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    //   align-items: center;
     label {
       text-align: center;
       margin-top: 2%;

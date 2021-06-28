@@ -21,7 +21,6 @@ export default {
   setup() {
     const store = useStore();
     const router = useRouter();
-    // const recipes = ref([]);
     const recipes = computed(() => store.getters.allRecipes);
     function getRecipes() {
       store.dispatch('getRecipes');
@@ -78,11 +77,6 @@ export default {
       transition-delay: 0.3s;
       overflow: hidden;
       ul {
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: flex-start;
-        // align-items: flex-start;
-        // align-content: flex-start;
         flex-wrap: wrap;
         li {
           color: white;

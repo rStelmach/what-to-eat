@@ -1,36 +1,40 @@
 import { createStore } from 'vuex';
 import axios from 'axios';
+import { Recipe } from '@/types/Recipe';
 
 const resourceUrl = 'http://localhost:3000/recipes';
-// const resourceUrl = 'https://my-tasty-api.herokuapp.com/recipes';
 
 export default createStore({
-  state: { recipes: [], ingredients: [] },
+  state: { recipes: [], searchIngredients: [] },
   mutations: {
     SET_RECIPES(state, recipes) {
       state.recipes = recipes;
     },
-    SET_INGREDIENTS(state, ingredients) {
-      state.ingredients = ingredients;
+    ADD_SEARCH_INGREDIENT(state, ingredient) {
+      (state.searchIngredients as string[]).push(ingredient);
     },
   },
   actions: {
     async getRecipes(context) {
       const response = await axios.get(resourceUrl, {});
       context.commit('SET_RECIPES', response.data);
-      context.commit('SET_INGREDIENTS', response.data.ingredients);
     },
   },
   modules: {},
   getters: {
     allRecipes(state) {
-      return state.recipes;
+      if (state.searchIngredients.length <= 0) return state.recipes;
+
+      const filteredRecipes = state.recipes.filter((recipe: Recipe) =>
+        recipe.ingredients.some(ingredient =>
+          state.searchIngredients.length > 0 ? (state.searchIngredients as string[]).includes(ingredient) : true,
+        ),
+      );
+      return filteredRecipes;
     },
-    allIngredients(state) {
-      return state.ingredients;
+
+    getInput(state) {
+      return state.searchIngredients;
     },
-    // getRecipeById(state, id) {
-    //   return state.recipes.find(recipe => (recipe as any).id === id);
-    // },
   },
 });
