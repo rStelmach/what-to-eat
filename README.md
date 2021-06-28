@@ -5,6 +5,7 @@ App is still in progress.
 ## Technologies used
 #### Vue 3
 #### Composition API
+#### Composable/Hooks
 #### Axios 
 #### json server
 #### Vuex
