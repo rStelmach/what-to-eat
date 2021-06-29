@@ -5,13 +5,16 @@ import { Recipe } from '@/types/Recipe';
 const resourceUrl = 'http://localhost:3000/recipes';
 
 export default createStore({
-  state: { recipes: [], searchIngredients: [] },
+  state: { recipes: [], searchIngredientsQuery: [] },
   mutations: {
     SET_RECIPES(state, recipes) {
       state.recipes = recipes;
     },
     ADD_SEARCH_INGREDIENT(state, ingredient) {
-      (state.searchIngredients as string[]).push(ingredient);
+      (state.searchIngredientsQuery as string[]).unshift(ingredient);
+    },
+    DELETE_INGREDIENT(state, id) {
+      (state.searchIngredientsQuery as string[]).splice(id, 1);
     },
   },
   actions: {
@@ -23,18 +26,20 @@ export default createStore({
   modules: {},
   getters: {
     allRecipes(state) {
-      if (state.searchIngredients.length <= 0) return state.recipes;
+      if (state.searchIngredientsQuery.length <= 0) return state.recipes;
 
       const filteredRecipes = state.recipes.filter((recipe: Recipe) =>
         recipe.ingredients.some(ingredient =>
-          state.searchIngredients.length > 0 ? (state.searchIngredients as string[]).includes(ingredient) : true,
+          state.searchIngredientsQuery.length > 0
+            ? (state.searchIngredientsQuery as string[]).includes(ingredient)
+            : true,
         ),
       );
       return filteredRecipes;
     },
 
     getInput(state) {
-      return state.searchIngredients;
+      return state.searchIngredientsQuery;
     },
   },
 });

@@ -4,7 +4,7 @@
       <label for="ingredients">Write down your ingredients:</label>
       <input type="text" id="ingredients" v-model="listInput" @keyup.enter="addToIngredients" />
       <div class="ingredient" v-for="(ingredient, index) in ingredients" :key="index">
-        <li>{{ ingredient }}</li>
+        <li>{{ ingredient }} <span @click="deleteFromIngredients">X</span></li>
       </div>
     </div>
   </div>
@@ -23,7 +23,10 @@ export default {
       store.commit('ADD_SEARCH_INGREDIENT', listInput.value);
       listInput.value = '';
     }
-    return { ingredients, listInput, recipes, addToIngredients };
+    function deleteFromIngredients() {
+      store.commit('DELETE_INGREDIENT', ingredients.id);
+    }
+    return { ingredients, listInput, recipes, addToIngredients, deleteFromIngredients };
   },
 };
 </script>
@@ -62,10 +65,19 @@ export default {
       outline: none;
     }
     li {
+      position: relative;
       list-style-type: '★ ';
       margin-left: 3.5%;
       font-size: 1.5rem;
       font-weight: 600;
+      span {
+        position: absolute;
+        top: 8%;
+        right: 10%;
+        font-weight: bold;
+        font-size: 1.6rem;
+        cursor: pointer;
+      }
     }
   }
   .temp {
